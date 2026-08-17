@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>ページが見つかりません｜鶴屋</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script>
+    if (["/shopinfo/", "/shopinfo/”", "/shopinfo/%E2%80%9D"].includes(window.location.pathname)) {
+      window.location.replace("/shopinfo");
+    }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWPNN29GQ5"></script>
+  <script src="/assets/analytics.js"></script>
 </head>
 <body>
   <main class="page-hero" style="min-height:70vh;display:grid;place-items:center;text-align:center">
-    <div class="shell"><p class="eyebrow">404</p><h1>ページが見つかりません</h1><p>URLをご確認いただくか、ホームへお戻りください。</p><p><a class="button primary" href="./">ホームへ戻る</a></p></div>
+    <div class="shell"><p class="eyebrow">404</p><h1>ページが見つかりません</h1><p>URLをご確認いただくか、ホームへお戻りください。</p><p><a class="button primary" href="/">ホームへ戻る</a></p></div>
   </main>
 </body>
 </html>

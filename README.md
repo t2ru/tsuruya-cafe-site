@@ -5,6 +5,12 @@
 - 本番URL: https://www.tsuruya-cafe.com/
 - オンラインストア: https://tsuruyacafe.thebase.in/
 - ホスティング: GitHub Pages
+- Google Analytics: 既存GA4データストリーム（測定ID `G-MWPNN29GQ5`）
+
+## 互換URL
+
+- `/shopinfo/` — 正規URL`/shopinfo`へ転送
+- `/shopinfo/”` — 大阪商店街サイトの誤記されたリンクを受け、正規URL`/shopinfo`へ転送
 
 ## 公開前チェック
 
